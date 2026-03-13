@@ -6,11 +6,9 @@ public class Hello {
       System.out.println("I Love Esdeekid So Bad");
       System.out.println("I Love YuRim So Much This Is My Propose To You Babe.");
 
-
+      System.out.println("Edit Java Code");
 
     }
-
-
 
 
 
