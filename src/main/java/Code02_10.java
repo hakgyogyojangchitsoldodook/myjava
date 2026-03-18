@@ -6,7 +6,7 @@ public class Code02_10 {
         int num;
 
         num = s.nextInt();
-        System.out.println("100" + num);
+        System.out.println("사용자가 입력한 값 ==> " + num);
 
         s.close();
     }
