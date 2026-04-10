@@ -5,6 +5,6 @@ public class Code06_07 {
             hap = hap +i;
 
         }
-        System.out.println("1부터 1000까지의  합꼐 : " +hap);
+        System.out.println("1부터 1000까지의  합계 : " +hap);
     }
 }
