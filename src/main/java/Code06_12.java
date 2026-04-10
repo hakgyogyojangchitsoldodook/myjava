@@ -13,8 +13,11 @@ public class Code06_12 {
             num2 = s.nextInt();
 
             hap = num1 + num2;
-
             System.out.println(num1+"+"+num2+"="+hap);
+
+            if (num1 > 50);
+            break;
+
 
         }
     }
