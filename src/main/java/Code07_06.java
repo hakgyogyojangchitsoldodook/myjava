@@ -4,12 +4,11 @@ class Rabbit {
     int yPos;
 
     Rabbit() {
-        shape= "토끼";
     }
 
     void setPosition(int x, int y){
         xPos = x;
-        xPos = y;
+        yPos = y;
     }
 }
 
