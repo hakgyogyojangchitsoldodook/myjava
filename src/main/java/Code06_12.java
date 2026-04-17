@@ -15,7 +15,7 @@ public class Code06_12 {
             hap = num1 + num2;
             System.out.println(num1+"+"+num2+"="+hap);
 
-            if (num1 > 50);
+            if (num1 + num2 > 100 );
             break;
 
 
