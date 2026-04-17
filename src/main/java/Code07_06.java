@@ -1,16 +1,31 @@
-class Rabitt {
+class Rabbit {
     String shape;
     int xPos;
     int yPos;
 
+    Rabbit() {
+        shape= "토끼";
+    }
+
     void setPosition(int x, int y){
         xPos = x;
-        yPos = y;
+        xPos = y;
     }
 }
 
 public class Code07_06 {
     public static void main(String[] args){
+        Rabbit rabbit1 = new Rabbit();
+        Rabbit rabbit2 = new Rabbit();
+        Rabbit rabbit3 = new Rabbit();
+
+        rabbit1.shape = "원";
+        rabbit2.shape = "삼각형";
+        rabbit3.shape = "토끼";
+
+        rabbit1.setPosition(100, 100);
+        rabbit1.setPosition(-100, 100);
+        rabbit1.setPosition(0, -100);
 
     }
 }
